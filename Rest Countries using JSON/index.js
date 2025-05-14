@@ -1,4 +1,5 @@
 function getApiData() {
+    //free public api
     fetch("https://restcountries.com/v3.1/name/bharat")
         .then((response) => {
             response.json().then((data) => {
